@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Javascript Quiz</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Simple Python Quiz</h1>
+			<p>Test your knowledge in <strong>python fundamentals</strong></p>
+		</header>
+		<section>
+			<form name="quizForm" onsubmit="return submitAnswers()">
+				<h3>1. What will be the output of the following Python code?</h3>
+				<h3>print("xyyzxyzxzxyy".count('yy'))</h3>
+				<input type="radio" name="q1" value="a" id="q1a">a. 2<br>
+				<input type="radio" name="q1" value="b" id="q1b">b. 0<br>
+				<input type="radio" name="q1" value="c" id="q1c">c. error<br>
+				<input type="radio" name="q1" value="d" id="q1d">d. none of mentioned<br>
+
+				<h3>2. Which of the following commands will create a list?</h3>
+				<input type="radio" name="q2" value="a" id="q2a">a. list1 = list()<br>
+				<input type="radio" name="q2" value="b" id="q2b">b. list1 = []<br>
+				<input type="radio" name="q2" value="c" id="q2c">c. list1 = list([1, 2, 3])<br>
+				<input type="radio" name="q2" value="d" id="q2d">d. all of the mentioned<br>
+
+				<h3>3. What will be the output of the following Python code?</h3>
+				<h3>print('Hello!2@#World'.istitle())</h3>
+				<input type="radio" name="q3" value="a" id="q3a">a. True<br>
+				<input type="radio" name="q3" value="b" id="q3b">b. False<br>
+
+				<h3>4. Which keyword is used for function?</h3>
+				<input type="radio" name="q4" value="a" id="q4a">a. Fun<br>
+				<input type="radio" name="q4" value="b" id="q4b">b. Def<br>
+				<input type="radio" name="q4" value="c" id="q4c">c. Define<br>
+				<input type="radio" name="q4" value="d" id="q4d">d. Function<br>
+
+				<h3>5. What will be the output of the following Python code?</h3>
+				<h5>x = 50</h5>
+				<h5>	def func(x):</h5>
+				<h5>		print('x is', x)</h5>
+				<h5>		x = 2</h5>
+				<h5>		print('Changed local x to', x)</h5>
+				<h5>	func(x)</h5>
+				<h5>	print('x is now', x)</h5>
+				<input type="radio" name="q5" value="a" id="q1a">a. x is now 50<br>
+				<input type="radio" name="q5" value="b" id="q5b">b. x is now 2<br>
+				<input type="radio" name="q5" value="c" id="q5c">c. x is now 100<br>
+				<input type="radio" name="q5" value="d" id="q5d">d. None of the mentioned<br>
+				<br><br>
+				<input type="submit" value="Submit Answers">
+
+			</form>
+			<div id="results"></div>
+
+		</section>
+		<footer>
+			<p>Copyright &copy; 2016, All Rights Reserved</p>
+		</footer>
+
+	</div>
+
+</body>
+</html>
